@@ -1,0 +1,13 @@
+prefix=/workspaces/resume-screening/venv
+exec_prefix=/workspaces/resume-screening/venv
+libdir=/workspaces/resume-screening/venv/lib
+sharedlibdir=/workspaces/resume-screening/venv/lib
+includedir=/workspaces/resume-screening/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
